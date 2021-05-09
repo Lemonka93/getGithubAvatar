@@ -1,9 +1,28 @@
 body {
   background-color: black;
-  color: rgb(0, 255, 0);
 }
 input,
-button {
+button,
+#text {
   background-color: rgb(0, 255, 0);
   color: black;
+}
+canvas {
+  display: block;
+}
+#input-form-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#input-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
